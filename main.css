@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color:#9DECFF; 
+}
+
+
+/*header*/
+
+header div h1 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color:#696969;
+    padding-left: 30px;
+}
+
+header div #bars {
+    font-size: 33px;
+    float: right;
+    padding-right: 25px;
+    padding-top:0px;
+    color:#696969;
+}
+
+header div {
+    width: 100%;
+    height: 55px;
+    padding-top:15px;
+    background-color:white;
+}
+
+/*Navigaton*/
+
+nav {
+    display: none;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    
+}
+
+nav ul {
+    background-color:#C7EEFF;
+    padding:5px 0px;
+}
+
+/*splash*/
+
+#splash {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,ff5353+0,a14d98+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #1e5799 0%, #ff5353 0%, #a14d98 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #1e5799 0%,#ff5353 0%,#a14d98 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #1e5799 0%,#ff5353 0%,#a14d98 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#a14d98',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height:90px;
+    padding: 80px 0px;
+}
+
+main div h1 {
+    display: inline;
+    padding-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+main div h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px
+} 
+
+main div #but-1 button {
+    width: 130px;
+    height:40px;
+    background-color:#C2C4F2;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+main div #but-1 {
+    text-align: center;
+}
+
+/*body info*/
+
+section #body-info {
+    text-align: center;
+}
+
+#rook {
+    font-size: 55px;
+    color:#696969;
+}
+
+main section div p {
+    padding: 10px;
+    color:#696969;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    color: white;
+    background-color:#343434;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 606px) {
+
+#bars {
+    display:none;
+}
+
+main div h1 {
+    padding-left: 450px;
+}
+
+#splash {
+     height:180px;
+     padding: 100px 0px 50px 0px;
+ }
+
+ main div h1 {
+    display: inline;
+    padding-left: 80px;
+    font-size: 55px;
+    
+ } 
+
+ main div h4 {
+    text-align: center;
+    float: left;
+    margin-left:75px;
+    font-size: 24px
+}
+
+main div #but-1 {
+    text-align: center;
+}
+
+main div #but-1 button {
+    width: 200px;
+    height:60px;
+    font-size: 20px;
+}
+
+nav {
+    display: inline;
+}
+
+
+nav ul li {
+    text-align: center;
+    padding: 10px 30px;
+    display: inline;
+    float: right;
+    
+}
+
+nav ul {
+    background-color:white;
+    position: absolute;
+    top:0%;
+    right:0%;
+    padding-top:20px;
+}
+
+
+
+}
+
