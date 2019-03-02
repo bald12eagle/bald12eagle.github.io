@@ -1,0 +1,174 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    display:flex;
+    background-color:#33333E; 
+    align-items: center;
+    height:3em;
+}
+
+header h1 {
+    text-transform:uppercase;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    padding-left:.5em;
+}
+
+header #bars {
+    color:white;
+    font-size:2em;
+    position: absolute;
+    top:0%;
+    right:0%;
+    padding-top:.2em;
+    padding-right:.5em;
+}
+
+#desknav {
+    display:none;
+}
+
+section {
+    background-color: orange;
+    height:33em;
+    background-image: url("bald blake folder/adult-blur-camera-368893.jpg");
+    background-size: 80em;
+    background-repeat:no-repeat;
+    background-position-x:-18em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+section h1 {
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5em;
+    padding-left:1em;
+}
+
+section span {
+    padding-top:1.5em;
+}
+
+section span button {
+    background-color:rgb(0, 110, 173);
+    border:none;
+    width:11em;
+    height: 3em;
+    color:white;
+    font-size:1.2em;
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+    margin:0 1.3em;
+}
+
+main h2 {
+    font-size:1.3em;
+    padding:1em 0;
+}
+
+.buttonmarg {
+    padding:2em 0;
+}
+
+.buttonmarg button {
+    background-color:#33333E;
+    color:white;
+    width:10em;
+    height:3em;
+    font-size:.8em;
+}
+
+@media screen and (min-width:825px) {
+    #bars {
+        display: none;
+    }
+
+    section {
+        height:33em;
+        background-size: 120em;
+        background-repeat:no-repeat;
+        background-position-x:-18em;
+        background-position-y: -8em;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction:column;
+    }
+    
+    #but-1 {
+        display: none;
+    }
+
+    section h1 {
+        color:white;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5em;
+        padding-left:1em;
+    }
+
+    main {
+        margin:0 25%;
+    }
+    
+    .buttonmarg {
+        padding:2em 0;
+    }
+    
+    .buttonmarg button {
+        background-color:#33333E;
+        color:white;
+        width:10em;
+        height:2em;
+        font-size:1em;
+    }
+
+    a {
+        color:white;
+        text-decoration:none;
+        list-style: none;
+
+    }
+
+    #desknav {
+        display:flex;
+        color:white;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:lighter;
+    }
+
+    nav ul {
+        padding:0 1em;
+        list-style: none;
+        display:inline;
+    }
+
+    nav ul li a {
+        padding:0 1.8em;
+    }
+
+    .but-cont {
+        padding-left:90%;
+    }
+
+    #desknav button {
+        position: absolute;
+        background-color: rgb(144, 144, 252);
+        color:white;
+        border:none;
+        font-size:1em;
+        height:1.5em;
+        width:6em;
+        top:1.4%;
+        right:1.4%;
+    }
+
+}
