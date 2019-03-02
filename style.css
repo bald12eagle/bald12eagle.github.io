@@ -51,6 +51,22 @@ section h1 {
     padding-left:1em;
 }
 
+section h1:hover{
+    animation: yourAnimation .3s 1 0.3s linear;
+}
+
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0);
+        }
+    50%{
+        transform: rotate(0) translateY(-15px);
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        }
+}
+
 section span {
     padding-top:1.5em;
 }
@@ -85,6 +101,19 @@ main h2 {
     width:10em;
     height:3em;
     font-size:.8em;
+}
+
+.buttonmarg button:hover {
+    animation: Butspin .7s 1 .01s ease-in-out;
+}
+
+@keyframes Butspin{
+    0%{
+        transform: rotate(0);
+        }
+    100%{
+        transform: rotate(360deg);
+        }
 }
 
 .mobilenav {
